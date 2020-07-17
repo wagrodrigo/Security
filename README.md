@@ -15,11 +15,12 @@ Tool created to user search related to identify fake user based on official comp
 
    - Consumer_key, consumer_secret, access_token and access_token_secret used by twitter api 
 
-
-
 ### Example: twitter user
 
 https://twitter.com/Twitter
 https://twitter.com/TwitterSupport
 https://twitter.com/TwitterVideo
 https://twitter.com/TwitterSports
+
+
+Created By Blu3B3@rd and DeadMilkMan
