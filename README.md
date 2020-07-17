@@ -9,3 +9,4 @@ First use:
   pip install -r requirements.txt
   python3 Tw1tt3r_Us3r_Hunt3r.py
   
+Created by BlueB3ard and DeadMilkMan
