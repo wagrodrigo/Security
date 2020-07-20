@@ -10,6 +10,7 @@ Tool created to user search related to identify fake user based on official comp
 
 ### First use 
    - python3 Tw1tt3r_Us3r_Hunt3r.py
+   - nano/vim whitelist.txt and change the example1 and example2 to users that are official to your company. 
 
 ### Must have 
 
