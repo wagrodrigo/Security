@@ -1,7 +1,6 @@
 import os
 import tweepy
 
-
 BASE_URL = 'https://twitter.com/%s'
 WHITELIST_FILE = "whitelist.txt"
 
@@ -23,7 +22,6 @@ query = keyword
 # twitter method to search for users
 searched_account = [status for status in api.search_users(q=query)]
 
-# Reading of whitelist.txt that contains que whitelist user
 whitelist_accounts = []
 if os.path.isfile(WHITELIST_FILE):
     with open(WHITELIST_FILE, "r") as whitelist_handle:
@@ -31,6 +29,6 @@ if os.path.isfile(WHITELIST_FILE):
             whitelist_accounts.append(line.strip())
 
 for user in searched_account:
-#print responsible to create the list with users comparing the result with whitelist
+#print responsible to create the list with users
     if user._json["screen_name"] not in whitelist_accounts:
         print(BASE_URL % user._json["screen_name"])
