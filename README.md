@@ -2,7 +2,7 @@
 
 
 
-Tool created to user search related to identify fake user based on official company user account. 
+Tool created to user search related to identify fake user based on official company user account in Twitter. 
 
 ### Installation
 
